@@ -12,3 +12,5 @@ let BLACK = UIColor.black
 let GRAY_BLACK = UIColor(red: 30/255, green: 30/255, blue: 30/255, alpha: 1)
 let GRAY_LIGTH = UIColor(red: 240/255, green: 240/255, blue: 240/255, alpha: 1)
 
+let FONT_BASE = UIFont(name: "chalkduster", size: 20)
+

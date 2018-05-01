@@ -47,7 +47,7 @@
         <!--Menu-->
         <scene sceneID="bMx-CO-pk0">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IoW-fQ-Pds" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IoW-fQ-Pds" customClass="CustomNavigationController" customModule="FoodWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Menu" id="Lfl-1g-gvA"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KsO-sy-AE9">
@@ -95,7 +95,7 @@
         <!--Carte-->
         <scene sceneID="s9N-Dz-bEc">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Uuo-jg-662" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Uuo-jg-662" customClass="CustomNavigationController" customModule="FoodWorld" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Carte" id="WMP-lV-zWv"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c8y-fN-VP6">

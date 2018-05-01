@@ -13,8 +13,9 @@
 		C16F11FC20989F3200A532FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16F11FA20989F3200A532FA /* LaunchScreen.storyboard */; };
 		C16F12072098A17300A532FA /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F12062098A17300A532FA /* MenuController.swift */; };
 		C16F12092098A21500A532FA /* CarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F12082098A21500A532FA /* CarteController.swift */; };
-		C16F120B2098A56C00A532FA /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F120A2098A56C00A532FA /* CustomTabBarController.swift */; };
 		C16F120E2098A61700A532FA /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F120D2098A61700A532FA /* Constantes.swift */; };
+		C16F12102098A9A600A532FA /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F120F2098A9A600A532FA /* CustomNavigationController.swift */; };
+		C16F12122098AA2500A532FA /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F12112098AA2500A532FA /* CustomTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +27,9 @@
 		C16F11FD20989F3200A532FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C16F12062098A17300A532FA /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		C16F12082098A21500A532FA /* CarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteController.swift; sourceTree = "<group>"; };
-		C16F120A2098A56C00A532FA /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		C16F120D2098A61700A532FA /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
+		C16F120F2098A9A600A532FA /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
+		C16F12112098AA2500A532FA /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +94,8 @@
 			children = (
 				C16F12062098A17300A532FA /* MenuController.swift */,
 				C16F12082098A21500A532FA /* CarteController.swift */,
-				C16F120A2098A56C00A532FA /* CustomTabBarController.swift */,
+				C16F120F2098A9A600A532FA /* CustomNavigationController.swift */,
+				C16F12112098AA2500A532FA /* CustomTabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -176,8 +179,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16F12102098A9A600A532FA /* CustomNavigationController.swift in Sources */,
 				C16F120E2098A61700A532FA /* Constantes.swift in Sources */,
-				C16F120B2098A56C00A532FA /* CustomTabBarController.swift in Sources */,
+				C16F12122098AA2500A532FA /* CustomTabBarController.swift in Sources */,
 				C16F12092098A21500A532FA /* CarteController.swift in Sources */,
 				C16F12072098A17300A532FA /* MenuController.swift in Sources */,
 				C16F11F220989F3200A532FA /* AppDelegate.swift in Sources */,
