@@ -14,3 +14,12 @@ let GRAY_LIGTH = UIColor(red: 240/255, green: 240/255, blue: 240/255, alpha: 1)
 
 let FONT_BASE = UIFont(name: "chalkduster", size: 20)
 
+let ITALIA = "Italien"
+let JAPAN = "Japonais"
+let CHINA = "Chinois"
+let USA = "Americain"
+let MEXICO = "Mexcain"
+let ESPANIA = "Espagnol"
+let SWISS = "Suisse"
+
+

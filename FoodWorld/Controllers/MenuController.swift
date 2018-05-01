@@ -12,20 +12,28 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
     @IBOutlet weak var collectionView: UICollectionView!
     
+    var menus = [Menu]()
     let identifier = "MenuCell"
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.delegate = self
         collectionView.dataSource = self
         title = "Les menus du monde"
+        let viewCollection = UIView(frame: collectionView.bounds)
+        viewCollection.layer.addSublayer(Gradient())
+        collectionView.backgroundView = viewCollection
+        
+        menus = TheDishs.getDishs.menus()
+        collectionView.reloadData()
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 3
+        return menus.count
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let menu = menus[indexPath.item]
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as? MenuCell{
-            cell.backgroundColor = GRAY_BLACK
+            cell.setup(menu: menu)
             return cell
         }
         
