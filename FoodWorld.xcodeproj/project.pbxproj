@@ -16,6 +16,7 @@
 		C16F120E2098A61700A532FA /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F120D2098A61700A532FA /* Constantes.swift */; };
 		C16F12102098A9A600A532FA /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F120F2098A9A600A532FA /* CustomNavigationController.swift */; };
 		C16F12122098AA2500A532FA /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F12112098AA2500A532FA /* CustomTabBarController.swift */; };
+		C16F12142098BD1600A532FA /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F12132098BD1600A532FA /* MenuCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C16F120D2098A61700A532FA /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		C16F120F2098A9A600A532FA /* CustomNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		C16F12112098AA2500A532FA /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		C16F12132098BD1600A532FA /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		C16F12032098A0D600A532FA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C16F12132098BD1600A532FA /* MenuCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16F12142098BD1600A532FA /* MenuCell.swift in Sources */,
 				C16F12102098A9A600A532FA /* CustomNavigationController.swift in Sources */,
 				C16F120E2098A61700A532FA /* Constantes.swift in Sources */,
 				C16F12122098AA2500A532FA /* CustomTabBarController.swift in Sources */,
