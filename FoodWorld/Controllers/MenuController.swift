@@ -14,6 +14,8 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     var menus = [Menu]()
     let identifier = "MenuCell"
+    let segueId = "toDetail"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.delegate = self
@@ -51,6 +53,19 @@ class MenuController: UIViewController, UICollectionViewDelegate, UICollectionVi
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 10
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let menu = menus[indexPath.row]
+        performSegue(withIdentifier: segueId, sender: menu)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == segueId {
+            if let detail = segue.destination as? DetailController {
+                detail.menu = sender as? Menu
+            }
+        }
     }
 
 }

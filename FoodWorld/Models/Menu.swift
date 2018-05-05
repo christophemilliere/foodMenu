@@ -29,6 +29,6 @@ class Menu {
     init(country: String, image: UIImage) {
         self._country = country
         self._image = image
-        self._dishs = [Dish]()
+        self._dishs = TheDishs.getDishs.addAllDish(country: self._country)
     }
 }

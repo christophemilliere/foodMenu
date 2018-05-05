@@ -14,16 +14,7 @@ class CarteCell: UITableViewCell {
     @IBOutlet weak var descCarte: UILabel!
     @IBOutlet weak var imageCarte: UIImageView!
     
-    var dish: Dish
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-    }
+    var dish: Dish!
     
     func setup(dish: Dish) {
         self.dish = dish

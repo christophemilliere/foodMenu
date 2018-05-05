@@ -10,11 +10,15 @@ import UIKit
 
 class CarteController: UITableViewController {
     
-    let cellID = "CarteCell"
-    var allDishs: [MenuCompleted]()
+    let cellID = "CartCell"
+    var allDishs = [MenuCompleted]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let view = UIView(frame: tableView.bounds)
+        view.layer.addSublayer(Gradient())
+        tableView.backgroundView = view
+        allDishs = TheDishs.getDishs.menuCompleted()
     }
 
     // MARK: - Table view data source
@@ -35,5 +39,20 @@ class CarteController: UITableViewController {
         }
         return UITableViewCell()
     }
+    
+   override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 110
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        let typeDishs = allDishs[section].type
+        switch typeDishs {
+        case .entree: return "Nos entrées"
+        case .mainCourse: return "Nos Plats"
+        case .dessert: return "Le coin des gourmands"
+        }
+    }
+    
+    
  
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C11B06B7209E465500D82CB9 /* DishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B06B6209E465500D82CB9 /* DishView.swift */; };
 		C16F11F220989F3200A532FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F11F120989F3200A532FA /* AppDelegate.swift */; };
 		C16F11F720989F3200A532FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16F11F520989F3200A532FA /* Main.storyboard */; };
 		C16F11F920989F3200A532FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16F11F820989F3200A532FA /* Assets.xcassets */; };
@@ -24,9 +25,11 @@
 		C16F121E2098E55000A532FA /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F121D2098E55000A532FA /* Gradient.swift */; };
 		C16F1220209E128000A532FA /* CarteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F121F209E128000A532FA /* CarteCell.swift */; };
 		C16F1222209E15DE00A532FA /* MenuCompleted.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F1221209E15DE00A532FA /* MenuCompleted.swift */; };
+		C16F1224209E3BE100A532FA /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F1223209E3BE100A532FA /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C11B06B6209E465500D82CB9 /* DishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishView.swift; sourceTree = "<group>"; };
 		C16F11EE20989F3200A532FA /* FoodWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16F11F120989F3200A532FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C16F11F620989F3200A532FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		C16F121D2098E55000A532FA /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		C16F121F209E128000A532FA /* CarteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteCell.swift; sourceTree = "<group>"; };
 		C16F1221209E15DE00A532FA /* MenuCompleted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCompleted.swift; sourceTree = "<group>"; };
+		C16F1223209E3BE100A532FA /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 				C16F12132098BD1600A532FA /* MenuCell.swift */,
 				C16F121D2098E55000A532FA /* Gradient.swift */,
 				C16F121F209E128000A532FA /* CarteCell.swift */,
+				C11B06B6209E465500D82CB9 /* DishView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 				C16F12082098A21500A532FA /* CarteController.swift */,
 				C16F120F2098A9A600A532FA /* CustomNavigationController.swift */,
 				C16F12112098AA2500A532FA /* CustomTabBarController.swift */,
+				C16F1223209E3BE100A532FA /* DetailController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -215,7 +221,9 @@
 				C16F12162098C24E00A532FA /* Dish.swift in Sources */,
 				C16F12072098A17300A532FA /* MenuController.swift in Sources */,
 				C16F12182098C28A00A532FA /* Enums.swift in Sources */,
+				C11B06B7209E465500D82CB9 /* DishView.swift in Sources */,
 				C16F11F220989F3200A532FA /* AppDelegate.swift in Sources */,
+				C16F1224209E3BE100A532FA /* DetailController.swift in Sources */,
 				C16F121E2098E55000A532FA /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -23,6 +23,6 @@ class MenuCompleted {
     
     init(type: Type) {
         self._type = type
-        self._dishs = [Dish]()
+        self._dishs = TheDishs.getDishs.aLaCarte(type: self._type)
     }
 }
