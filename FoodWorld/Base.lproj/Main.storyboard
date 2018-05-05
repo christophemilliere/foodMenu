@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -48,7 +49,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                     </subviews>
-                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="100" id="4as-6G-6Vv"/>
                                                         <constraint firstItem="XC3-WV-Lx5" firstAttribute="leading" secondItem="mNC-GB-40u" secondAttribute="leading" constant="8" id="Lcc-D9-Oco"/>
@@ -145,13 +146,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="gKZ-sf-5wp">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="CarteCell " preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="163" id="gKZ-sf-5wp" customClass="CarteCell" customModule="FoodWorld" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="163"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gKZ-sf-5wp" id="C4i-Vn-fSZ">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="162.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wt0-wK-Eis">
+                                            <rect key="frame" x="26" y="31" width="128" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="128" id="13A-hu-Jc3"/>
+                                                <constraint firstAttribute="height" constant="100" id="iZc-K2-fLs"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uo3-kT-z3W">
+                                            <rect key="frame" x="162" y="31.5" width="197" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="myZ-J9-W8F"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="wt0-wK-Eis" firstAttribute="leading" secondItem="C4i-Vn-fSZ" secondAttribute="leadingMargin" constant="10" id="2IN-Ku-1Zh"/>
+                                        <constraint firstItem="Uo3-kT-z3W" firstAttribute="centerY" secondItem="C4i-Vn-fSZ" secondAttribute="centerY" id="Gt1-Ra-nCn"/>
+                                        <constraint firstItem="Uo3-kT-z3W" firstAttribute="leading" secondItem="wt0-wK-Eis" secondAttribute="trailing" constant="8" id="jY2-iR-fBU"/>
+                                        <constraint firstItem="wt0-wK-Eis" firstAttribute="centerY" secondItem="C4i-Vn-fSZ" secondAttribute="centerY" id="qL5-Ys-3V6"/>
+                                        <constraint firstItem="Uo3-kT-z3W" firstAttribute="trailing" secondItem="C4i-Vn-fSZ" secondAttribute="trailingMargin" id="voi-aN-Mia"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descCarte" destination="Uo3-kT-z3W" id="PtK-XA-Pbk"/>
+                                    <outlet property="imageCarte" destination="wt0-wK-Eis" id="mis-Ld-3rf"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -163,7 +193,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wbB-79-TC4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1084" y="69"/>
+            <point key="canvasLocation" x="1084" y="68.815592203898049"/>
         </scene>
         <!--Carte-->
         <scene sceneID="s9N-Dz-bEc">

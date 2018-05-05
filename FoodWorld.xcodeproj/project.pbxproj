@@ -22,6 +22,8 @@
 		C16F121A2098C50100A532FA /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F12192098C50100A532FA /* Menu.swift */; };
 		C16F121C2098C65400A532FA /* TheDishs.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F121B2098C65400A532FA /* TheDishs.swift */; };
 		C16F121E2098E55000A532FA /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F121D2098E55000A532FA /* Gradient.swift */; };
+		C16F1220209E128000A532FA /* CarteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F121F209E128000A532FA /* CarteCell.swift */; };
+		C16F1222209E15DE00A532FA /* MenuCompleted.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F1221209E15DE00A532FA /* MenuCompleted.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		C16F12192098C50100A532FA /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		C16F121B2098C65400A532FA /* TheDishs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDishs.swift; sourceTree = "<group>"; };
 		C16F121D2098E55000A532FA /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
+		C16F121F209E128000A532FA /* CarteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarteCell.swift; sourceTree = "<group>"; };
+		C16F1221209E15DE00A532FA /* MenuCompleted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCompleted.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 			children = (
 				C16F12132098BD1600A532FA /* MenuCell.swift */,
 				C16F121D2098E55000A532FA /* Gradient.swift */,
+				C16F121F209E128000A532FA /* CarteCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -103,6 +108,7 @@
 				C16F12172098C28A00A532FA /* Enums.swift */,
 				C16F12192098C50100A532FA /* Menu.swift */,
 				C16F121B2098C65400A532FA /* TheDishs.swift */,
+				C16F1221209E15DE00A532FA /* MenuCompleted.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -201,8 +207,10 @@
 				C16F121C2098C65400A532FA /* TheDishs.swift in Sources */,
 				C16F12102098A9A600A532FA /* CustomNavigationController.swift in Sources */,
 				C16F120E2098A61700A532FA /* Constantes.swift in Sources */,
+				C16F1222209E15DE00A532FA /* MenuCompleted.swift in Sources */,
 				C16F12122098AA2500A532FA /* CustomTabBarController.swift in Sources */,
 				C16F121A2098C50100A532FA /* Menu.swift in Sources */,
+				C16F1220209E128000A532FA /* CarteCell.swift in Sources */,
 				C16F12092098A21500A532FA /* CarteController.swift in Sources */,
 				C16F12162098C24E00A532FA /* Dish.swift in Sources */,
 				C16F12072098A17300A532FA /* MenuController.swift in Sources */,
